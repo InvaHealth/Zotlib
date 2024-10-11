@@ -14,7 +14,7 @@ InvaHzot <- subset(zotlib, group == 'InvaHealth')
 head(InvaHzot)
 table(InvaHzot$collection)
 
-InvaHDBzot <- subset(InvaHzot, collection == "Papers database")
+InvaHDBzot <- subset(InvaHzot, collection == "Paper database WoS")
 dim(InvaHDBzot)
 str(InvaHDBzot)
 
